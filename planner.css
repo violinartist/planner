@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+#container {
+  display:flex;
+  text-align:center;
+}
+h3 {
+    position: absolute;
+    top:13vh;
+    right:-16vw;
+    width:20vw;
+    min-width:600px;
+    z-index: 0;
+    cursor: pointer;
+}
+
+#txt {
+  position: absolute;
+  top:18vh;
+  right:-16vw;
+  width:20vw;
+  min-width:600px;
+  z-index: 0;
+  cursor: pointer;
+  font-size: 4.5em;
+}
+#text2 {
+    text-align: center;
+}
+
+#topnav{
+  background:#1c1c1a;
+  padding:1vw;
+  width:98vw;
+  position:fixed;
+  top:-10vh;
+  left:0;
+  z-index:100;
+}
+#topnav{
+  top:0;
+}
+#topnav a{
+  color:#e8ddc0;
+  text-decoration:none;
+  padding:0 1.5vw;
+}
+#topnav a:hover, #topnav .active{
+  color:#fff;
+  font-size:1.2em;
+}	
+#topnav a:nth-child(odd) {
+  padding-top:1.5vh;
+}
+a {
+  text-decoration: none;
+  transition: 0.2s ease-out;
+}
+@media screen and (max-width: 1000px) {
+  #topnav a, #topnav a:hover, #topnav .active {
+    font-size:0.8em;
+  }
+}
+.morevideosbutton {
+ position: absolute;
+  top:56vh;
+  right:7.5vw;
+  width:20vw;
+  min-width:410px;
+  z-index: 0;
+  cursor: pointer; 
+}
+.morevideosbutton {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  color: white; 
+  border: 2px solid #4CAF50;
+}
+.morevideosbutton:hover {
+background-color: #4CAF50;
+color: white; 
+}
+
+
+
+
+
+body {
+    background-image: url('images/musicalForest.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: left;
+    list-style-position: inside;
+    margin: 65px;
+    margin-top: 30x;
+  }
+body {
+      color: white;
+      font-family: 'Poppins';
+    }
+body {
+      background-color:black;
+    }
+.demo {
+  position: absolute;
+  top:12vh;
+  right:3vw;
+  width:20vw;
+  min-width:600px;
+  z-index: 0;
+  cursor: pointer;
+}
+.logo {
+  margin-left: auto;
+}
+h2 {
+  text-align: left;
+}
+.center {
+  display: block;
+
+  margin-right: auto;
+  width: 30%;
+}
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  color: white; 
+  border: 2px solid #4CAF50;
+}
+.button:hover {
+background-color: #4CAF50;
+color: white; 
+}
+.demo {
+  color: rgb(8, 173, 202);
+  text-align: center;
+}
+
+#album{
+  margin:5vh auto 0;
+  padding:2.4vw 2vw;
+  color:#284098;
+  font-size: 2em;
+  background:url('images/albumcontectpic.png');
+	border-left:2px solid #a2482b;
+	border-bottom:2px solid #a2482b;
+	border-top:2px solid #e69e67;
+	border-right:2px solid #e69e67;
+  overflow: hidden;
+ transform: rotate(-2deg);
+ width:60%;
+ min-width:500px;
+}
+#album img{
+  width:40%;
+  max-width:400px;
+  float:left;
+  margin:5vh 1vw 5vh 0;
+}
+#album a{
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    color: white; 
+    border: 2px solid #4CAF50;
+  }
+/* #album a:hover{
+  background-color: #4CAF50;
+  color: white; 
+} */
+.hellowords {
+  font-weight: normal;
+  margin:0;
+  padding:0;
+}
+.hellowords {
+  color: white;
+  transform: rotate(-2deg);
+  margin:2.5vh 0;
+  text-align: center;
+}
+@media (max-width : 945px) {
+  #album, #innercontent{
+    width:90%;
+  }
+}
+@media (max-width : 720px) {
+  #video{
+    min-width:360px;
+  }
+}
+footer {
+  position: bottom;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: left;
+}
+.buttonsec {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.buttonsec {
+  background-color: rgb(9, 21, 73);
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.3s;
+}
+
+.buttonsec:hover {
+  background-color: rgb(3, 9, 39);
+  color: white;
+} 
+
+
+/** Media queries**/
+
+@media (max-width : 945px) {
+  #album, #innercontent{
+    width:90%;
+  }
+}
+@media (max-width : 720px) {
+  #video{
+    min-width:360px;
+  }
+}
+
+
+@media (max-width : 650px) {
+
+  .demo{
+    position:relative;
+    top:0;
+    right:0;
+    width:90vw;
+    min-width:20px;
+    z-index: 0;
+    cursor: pointer;
+  }
+  .demo{
+    margin-top:30vh;
+  }
+  .morevideosbutton {
+    position:relative;
+    top:0;
+    right:0;
+    width:83vw;
+    min-width:10px;
+    z-index: 0;
+    cursor: pointer;
+   }
+  .morevideosbutton {
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 30vh;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    color: white; 
+    border: 2px solid #4CAF50;
+  }
+  .morevideosbutton:hover {
+  background-color: #4CAF50;
+  color: white; 
+  }
+  #album{
+    margin:0vh auto 0;
+    padding:0 2vw 2vh;
+    color:#284098;
+    font-size: 2em;
+    background:url('images/albumcontectpic.png');
+  	border-left:2px solid #a2482b;
+  	border-bottom:2px solid #a2482b;
+  	border-top:2px solid #e69e67;
+  	border-right:2px solid #e69e67;
+    overflow: hidden;
+   transform: rotate(-2deg);
+   width:85vw;
+   min-width:100px;
+  }
+  #innercontent{
+    min-width:100px;
+  }
+  #album img{
+    width:100%;
+  }
+  h2 {
+    margin-top:0vh;
+  }
+}
